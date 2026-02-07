@@ -24,13 +24,13 @@
 
 - <span> Install
 - <span> Step 0. Install MMCV and MMDetection using MIM.
-- 
+
 `pip install -U openmim`    
 `mim install mmcv-full`  
 `mim install mmdet\<3.0.0`  
 
 - <span> Install MMRotate.
-- 
+
 `git clone https://github.com/open-mmlab/mmrotate.git`
 `cd mmrotate`
 `pip install -v -e .`
