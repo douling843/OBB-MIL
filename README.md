@@ -20,15 +20,17 @@
 
 - <span> Step 2. Install PyTorch following official instructions, e.g.
  
-`Step 2. Install PyTorch following official instructions, e.g.`
+`conda install pytorch==1.10.0 torchvision==0.11.0 -c pytorch -c conda-forge`
 
 - <span> Install
 - <span> Step 0. Install MMCV and MMDetection using MIM.
+- 
 `pip install -U openmim`    
 `mim install mmcv-full`  
 `mim install mmdet\<3.0.0`  
 
 - <span> Install MMRotate.
+- 
 `git clone https://github.com/open-mmlab/mmrotate.git`
 `cd mmrotate`
 `pip install -v -e .`
@@ -46,5 +48,4 @@
 
 This repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) 🤝  and [MMRotate](https://github.com/open-mmlab/mmrotate) 👯.
 
-This repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) 🤝  and [OA-MIL](https://github.com/cxliu0/OA-MIL) 👯.
 
